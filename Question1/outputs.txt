@@ -1,3 +1,7 @@
 coder
 coder sudo
 uid=1000(coder) gid=1000(coder) groups=1000(coder),27(sudo)
+
+/home/coder/Desktop
+total 12
+-rwxrwxrwx 1 nobody nogroup 10827 Sep 20 2023 Graded_Lab_Assignment.html
