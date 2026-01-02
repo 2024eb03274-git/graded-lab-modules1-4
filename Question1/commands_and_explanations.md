@@ -24,3 +24,16 @@ ls -l
 
 **Explanation:**
 I displayed my current working directory using `pwd` and listed all files in that location with detailed information using `ls -l`, which shows permissions, ownership, file size, and modification dates.
+
+### Step 3: Environment Confirmation File
+
+**Command:**
+```bash
+echo "Linux user environment verified" > user_info.txt
+cat user_info.txt
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I created the file `user_info.txt` and wrote the required verification message into it using output redirection. The `cat` command confirmed that the content was written successfully.
