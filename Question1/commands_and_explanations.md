@@ -37,3 +37,16 @@ cat user_info.txt
 
 **Explanation:**
 I created the file `user_info.txt` and wrote the required verification message into it using output redirection. The `cat` command confirmed that the content was written successfully.
+
+### Step 4: File Integrity Check
+
+**Command:**
+```bash
+wc -m user_info.txt
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I used `wc -m` to count the number of characters in the file `user_info.txt`. This confirms the file’s integrity by showing the exact character count including the newline.
+
