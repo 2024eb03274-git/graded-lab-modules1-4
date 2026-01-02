@@ -7,3 +7,5 @@ total 12
 -rwxrwxrwx 1 nobody nogroup 10827 Sep 20 2023 Graded_Lab_Assignment.html
 
 Linux user environment verified
+
+31 user_info.txt
