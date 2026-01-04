@@ -62,3 +62,15 @@ mkdir --help
 **Explanation:**
 Since manual and info pages are not available on this system, I used `mkdir --help` to review the command documentation. I learned that the `-p` option allows creating parent directories automatically and prevents errors if the directory already exists.
 
+### Step 6: Home Directory Inspection
+
+**Command:**
+```bash
+ls -1 ~ | sort
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I listed all files and directories in my home directory and sorted them alphabetically using ls -1 ~ | sort. This provides an ordered view of all items located in my home folder.
+
