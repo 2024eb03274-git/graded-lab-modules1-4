@@ -31,3 +31,6 @@ wm.log
 wm_startup.sh
 workspace
 wrapper_process.sh
+
+system admin logged in
+admin privileges granted
