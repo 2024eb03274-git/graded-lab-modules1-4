@@ -50,3 +50,15 @@ wc -m user_info.txt
 **Explanation:**
 I used `wc -m` to count the number of characters in the file `user_info.txt`. This confirms the file’s integrity by showing the exact character count including the newline.
 
+### Step 5: Learning the mkdir Command
+
+**Command:**
+```bash
+mkdir --help
+```
+**Output:**
+(See screenshot in screenshots folder)
+
+**Explanation:**
+Since manual and info pages are not available on this system, I used `mkdir --help` to review the command documentation. I learned that the `-p` option allows creating parent directories automatically and prevents errors if the directory already exists.
+
