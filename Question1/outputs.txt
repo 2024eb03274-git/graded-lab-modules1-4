@@ -34,3 +34,5 @@ wrapper_process.sh
 
 system admin logged in
 admin privileges granted
+
+6.5.0-1024-aws
