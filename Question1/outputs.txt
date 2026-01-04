@@ -9,3 +9,25 @@ total 12
 Linux user environment verified
 
 31 user_info.txt
+
+coursera
+data
+Desktop
+Desktop-ro
+Desktop.save
+Documents
+Downloads
+install
+Music
+node_modules
+noVNC
+package.json
+package-lock.json
+Pictures
+Public
+Templates
+Videos
+wm.log
+wm_startup.sh
+workspace
+wrapper_process.sh
