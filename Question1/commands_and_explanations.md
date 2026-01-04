@@ -74,3 +74,15 @@ ls -1 ~ | sort
 **Explanation:**
 I listed all files and directories in my home directory and sorted them alphabetically using ls -1 ~ | sort. This provides an ordered view of all items located in my home folder.
 
+### Step 7: Log Investigation
+
+**Command:**
+```bash
+grep "admin" log.txt
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I searched for the keyword admin inside the file log.txt using grep, which displayed only the lines that contain this word. This allows quick identification of relevant administrative log entries.
+
