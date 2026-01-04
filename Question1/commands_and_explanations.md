@@ -84,5 +84,17 @@ grep "admin" log.txt
 (See outputs.txt)
 
 **Explanation:**
-I searched for the keyword admin inside the file log.txt using grep, which displayed only the lines that contain this word. This allows quick identification of relevant administrative log entries.
+I searched for the keyword `admin` inside the file `log.txt` using `grep`, which displayed only the lines that contain this word. This allows quick identification of relevant administrative log entries.
+
+### Step 8: System Information Check
+
+**Command:**
+```bash
+uname -r
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I used the `uname -r` command to display the Linux kernel version currently running on this system, which is `6.5.0-1024-aws`. This information is useful for identifying the operating system kernel release.
 
