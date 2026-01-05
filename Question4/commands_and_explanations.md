@@ -66,3 +66,12 @@ df -h ~
 **Explanation:**
 This command displays the disk space usage of the filesystem where my home directory is stored, showing total size, used space, available space, and usage percentage.
 
+## Step 8 — Shell Identification
+
+### Command
+```bash
+echo $SHELL
+```
+**Explanation:**
+This command displays the path and name of the shell currently being used, which in this case is the Bash shell.
+
