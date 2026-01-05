@@ -38,3 +38,9 @@ PID TTY      TIME CMD
 399 pts/1    00:00:00 bash
 407 pts/1    00:00:00 ps
 
+Step3
+PID USER  PR  NI  VIRT   RES   SHR S %CPU %MEM   TIME+  COMMAND
+38  coder 20  0   76384  27516 5144 S 2.0  0.0   0:07.57 Xvnc
+276 coder 20  0  106080  19156 4096 S 0.7  0.0   0:04.19 python
+292 coder 20  0  577516 24832 16896 S 0.3  0.0   0:02.25 xfce4-terminal
+
