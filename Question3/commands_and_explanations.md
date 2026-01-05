@@ -51,3 +51,14 @@ ls -li sample_data.txt sample_hard.txt sample_soft.txt
 **Explanation:**
 I listed the inode numbers for the original file, hard link, and symbolic link using `ls -li`. This output allows me to compare which files reference the same inode on disk.
 
+### Step 5: Inode Analysis
+
+**Command:**  
+(No command required – analysis only)
+
+**Output:**  
+(See outputs.txt)
+
+**Explanation (1–2 sentences):**  
+The files `sample_data.txt` and `sample_hard.txt` share the same inode number, which means they point to the same physical data on disk. The symbolic link `sample_soft.txt` has a different inode because it only stores a reference path to the original file.
+
