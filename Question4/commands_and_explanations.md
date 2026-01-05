@@ -37,3 +37,12 @@ jobs
 Explanation:
 This command starts the `sleep` process in the background, and the `jobs` command confirms that the background process is currently running.
 
+## Step 5 — Process Priority Management
+
+### Command
+```bash
+ps -o pid,ni,cmd -u $USER | grep sleep
+renice 10 -p 453
+ps -o pid,ni,cmd -u $USER | grep sleep
+```
+
