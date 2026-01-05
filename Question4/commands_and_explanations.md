@@ -75,3 +75,12 @@ echo $SHELL
 **Explanation:**
 This command displays the path and name of the shell currently being used, which in this case is the Bash shell.
 
+## Step 9 — Output Redirection
+
+### Command
+```bash
+uname -a > system_report.txt
+cat system_report.txt
+```
+**Explanation:**
+This command redirects the output of the system information command into the file `system_report.txt`, and the second command displays the contents of that file to verify the redirection.
