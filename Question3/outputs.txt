@@ -9,4 +9,16 @@ lrwxrwxrwx 1 coder coder 15 Jan 5 15:04 sample_soft.txt -> sample_data.txt
 229764 -rw-r--r-- 2 coder coder 29 Jan 5 16:45 sample_hard.txt
 232448 lrwxrwxrwx 1 coder coder 15 Jan 5 16:47 sample_soft.txt -> sample_data.txt
 
+--- Q3 Step 6 ---
+Command: stat sample_data.txt
+
+File: sample_data.txt
+Size: 29        Blocks: 2        IO Block: 512 regular file
+Device: 3000aah/3145898d   Inode: 229764   Links: 2
+Access: (0644/-rw-r--r--)  Uid: (1000/coder)  Gid: (1000/coder)
+Access: 2026-01-05 16:45:45
+Modify: 2026-01-05 16:45:45
+Change: 2026-01-05 16:46:08
+
+
 
