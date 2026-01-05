@@ -1,3 +1,40 @@
-
+Step1
 17:50:02 up 13 days, 48 min, 0 users, load average: 9.28, 8.06, 8.58
+
+Step2
+PID TTY      TIME CMD
+1   ?        00:00:00 vnc_startup.sh
+13  ?        00:00:00 bash
+27  ?        00:00:01 python
+38  ?        00:00:06 Xvnc
+47  ?        00:00:00 sh
+55  ?        00:00:00 sh
+74  ?        00:00:00 dbus-launch
+75  ?        00:00:00 dbus-daemon
+84  ?        00:00:00 xfwm4
+96  ?        00:00:00 dbus-launch
+97  ?        00:00:00 dbus-daemon
+105 ?        00:00:00 ssh-agent
+118 ?        00:00:00 xfconfd
+119 ?        00:00:00 xfce4-session
+122 ?        00:00:00 xfconfd
+126 ?        00:00:00 gpg-agent
+132 ?        00:00:00 xfce4-panel
+134 ?        00:00:00 Thunar
+136 ?        00:00:00 xfdesktop
+142 ?        00:00:00 xfsettingsd
+150 ?        00:00:00 pulseaudio
+152 ?        00:00:00 gvfsd
+174 ?        00:00:00 panel-2-actions
+181 ?        00:00:00 gvfs-udisks2-vo
+188 ?        00:00:00 gvfsd-metadata
+192 ?        00:00:00 gvfsd-trash
+247 ?        00:00:00 at-spi-bus-laun
+252 ?        00:00:00 dbus-daemon
+254 ?        00:00:00 at-spi2-registr
+276 ?        00:00:03 python
+292 ?        00:00:02 xfce4-terminal
+296 pts/0    00:00:00 bash
+399 pts/1    00:00:00 bash
+407 pts/1    00:00:00 ps
 
