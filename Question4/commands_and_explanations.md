@@ -57,3 +57,12 @@ free -h
 **Explanation:**
 This command displays memory usage in a human-readable format, including total, used, free, shared, buff/cache, and available memory.
 
+## Step 7 — Disk Space Inspection
+
+### Command
+```bash
+df -h ~
+```
+**Explanation:**
+This command displays the disk space usage of the filesystem where my home directory is stored, showing total size, used space, available space, and usage percentage.
+
