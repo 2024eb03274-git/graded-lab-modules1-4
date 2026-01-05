@@ -9,3 +9,6 @@ Remember to complete project documentation.
 -rw-r--r-- 1 coder coder 44 Jan  5 01:38 plan_copy.txt
 
 drwxr-xr-x 2 coder coder 4 Jan  5 01:38 project_documents
+
+rmdir: failed to remove 'project_documents': Directory not empty
+project_documents
