@@ -77,3 +77,16 @@ ls -ld project_documents
 **Explanation:**
 I renamed the directory `documents` to `project_documents` using the `mv` command. The `ls -ld` command confirmed that the directory name was changed successfully.
 
+### Step 7: Directory Deletion
+
+**Command:**
+```bash
+rmdir project_documents
+ls -d project_documents
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I attempted to remove the directory using `rmdir`, but the system returned an error because the directory was not empty. The `ls -d` command confirmed that the directory still exists.
+
