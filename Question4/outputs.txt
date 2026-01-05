@@ -61,5 +61,10 @@ Step6
 Mem:           249G   117G    17G    210M        113G       128G
 Swap:          8.0G   710M   7.3G
 
+Step7
+Filesystem      Size  Used Avail Use% Mounted on
+dockerPool/...   13G  3.7G  9.4G  29% /
+
+
 
 
