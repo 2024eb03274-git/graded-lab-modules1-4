@@ -18,3 +18,12 @@ ps -u $USER
 **Explanation:**
 This command lists all processes currently running under my user account, including their PID, terminal, CPU time, and the command name.
 
+## Step 3 — CPU Usage Analysis
+
+### Command
+```bash
+top -u $USER
+```
+**Explanation:**
+This command displays real-time information about all processes owned by my user account and allows identifying which process is consuming the most CPU resources.
+
