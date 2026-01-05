@@ -62,4 +62,14 @@ I listed the inode numbers for the original file, hard link, and symbolic link u
 **Explanation:**  
 The files `sample_data.txt` and `sample_hard.txt` share the same inode number, which means they point to the same physical data on disk. The symbolic link `sample_soft.txt` has a different inode because it only stores a reference path to the original file.
 
+### Step 6: File Metadata Inspection
+
+**Command:**
+```bash
+stat sample_data.txt
+```
+Explanation:
+This command displays detailed metadata about the file including size, permissions, inode number, owner, and timestamps. It helps understand how Linux tracks file properties internally.
+
+
 
