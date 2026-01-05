@@ -89,4 +89,13 @@ ls -lh ~
 Explanation:
 I listed all files in my home directory using human-readable format to easily view the size of each file and directory.
 
+### Step 9: Link Deletion Test
+
+**Command:**
+```bash
+rm sample_soft.txt
+ls -l sample_data.txt
+```
+Explanation:
+I deleted the symbolic link and then listed the original file to verify that it still exists, proving that removing a soft link does not affect the original file.
 
