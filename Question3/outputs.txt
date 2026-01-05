@@ -5,3 +5,8 @@ Sample file for link testing
 
 lrwxrwxrwx 1 coder coder 15 Jan 5 15:04 sample_soft.txt -> sample_data.txt
 
+229764 -rw-r--r-- 2 coder coder 29 Jan 5 16:45 sample_data.txt
+229764 -rw-r--r-- 2 coder coder 29 Jan 5 16:45 sample_hard.txt
+232448 lrwxrwxrwx 1 coder coder 15 Jan 5 16:47 sample_soft.txt -> sample_data.txt
+
+
