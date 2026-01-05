@@ -3,3 +3,5 @@ Sample file for link testing
 -rw-r--r-- 2 coder coder 29 Jan 5 02:01 sample_data.txt
 -rw-r--r-- 2 coder coder 29 Jan 5 02:01 sample_hard.txt
 
+lrwxrwxrwx 1 coder coder 15 Jan 5 15:04 sample_soft.txt -> sample_data.txt
+
