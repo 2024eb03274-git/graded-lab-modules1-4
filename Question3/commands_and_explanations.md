@@ -71,5 +71,13 @@ stat sample_data.txt
 Explanation:
 This command displays detailed metadata about the file including size, permissions, inode number, owner, and timestamps. It helps understand how Linux tracks file properties internally.
 
+### Step 7: Disk Usage Check
+
+**Command:**
+```bash
+du -sh ~
+```
+Explanation:
+I displayed the total disk space used by my home directory in a human-readable format, which helps me understand how much storage my files are consuming.
 
 
