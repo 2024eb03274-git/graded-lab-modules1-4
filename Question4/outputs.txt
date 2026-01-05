@@ -48,3 +48,12 @@ Step4
 [1] 453
 [1]+  Running                 sleep 300 &
 
+Step5
+276 (process ID) old priority 0, new priority 10
+
+PID  NI CMD
+...
+276 10 python /home/coder/noVNC/utils/websockify/run --web /home/coder/noVNC/
+...
+
+
