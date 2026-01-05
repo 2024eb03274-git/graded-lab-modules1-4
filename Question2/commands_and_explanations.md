@@ -38,3 +38,14 @@ cat plan.txt
 **Explanation:**
 I added sample text to the file `plan.txt` using output redirection. The `cat` command displayed the contents of the file to confirm that the text was written successfully.
 
+### Step 4: File Metadata Verification
+
+**Command:**
+```bash
+ls -l plan.txt
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I displayed the permissions, ownership, size, and timestamp of the file `plan.txt` using `ls -l`. The output confirms that my username appears as the file owner.
