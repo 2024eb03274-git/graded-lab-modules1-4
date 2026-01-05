@@ -56,5 +56,11 @@ drwxr-xr-x 2 coder coder   2 Jan  5 14:56 Videos
 drwxr-xr-x 2 coder coder   2 Jun 26  2023 workspace
 -rwxr-xr-x 1 coder coder 314 Jun 26  2023 wrapper_process.sh
 
+--- Q3 Step 9 ---
+rm sample_soft.txt
+
+ls -l sample_soft.txt
+ls: cannot access 'sample_soft.txt': No such file or directory
+
 
 
