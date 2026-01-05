@@ -110,4 +110,15 @@ ping -c 4 www.google.com
 **Explanation:**
 I attempted to verify network connectivity by sending ICMP echo requests to `www.google.com`. Although the environment blocks ICMP and returned “Destination Port Unreachable,” the output confirms that the system attempted external communication.
 
+### Step 10: System Health Awareness
+
+**Command:**
+```bash
+uptime
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+The `uptime` command shows that the system has been running for nearly 6 days, currently has 0 active users, and displays the load averages for the last 1, 5, and 15 minutes, which indicate the system’s recent workload.
 
