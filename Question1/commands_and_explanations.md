@@ -108,5 +108,6 @@ ping -c 4 www.google.com
 (See outputs.txt)
 
 **Explanation:**
-I attempted to verify network connectivity by sending ICMP echo requests to www.google.com. Although the environment blocks ICMP and returned “Destination Port Unreachable,” the output confirms that the system attempted external communication.
+I attempted to verify network connectivity by sending ICMP echo requests to `www.google.com`. Although the environment blocks ICMP and returned “Destination Port Unreachable,” the output confirms that the system attempted external communication.
+
 
