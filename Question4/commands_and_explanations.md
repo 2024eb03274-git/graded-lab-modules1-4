@@ -45,4 +45,6 @@ ps -o pid,ni,cmd -u $USER | grep sleep
 renice 10 -p 453
 ps -o pid,ni,cmd -u $USER | grep sleep
 ```
+**Explanation:**
+This command changes the niceness value of the running Python process with PID 276 from 0 to 10, lowering its priority, and the output confirms that the new priority has been applied.
 
