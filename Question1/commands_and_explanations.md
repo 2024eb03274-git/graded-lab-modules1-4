@@ -98,3 +98,15 @@ uname -r
 **Explanation:**
 I used the `uname -r` command to display the Linux kernel version currently running on this system, which is `6.5.0-1024-aws`. This information is useful for identifying the operating system kernel release.
 
+### Step 9: Network Connectivity Test
+
+**Command:**
+```bash
+ping -c 4 www.google.com
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I attempted to verify network connectivity by sending ICMP echo requests to www.google.com. Although the environment blocks ICMP and returned “Destination Port Unreachable,” the output confirms that the system attempted external communication.
+
