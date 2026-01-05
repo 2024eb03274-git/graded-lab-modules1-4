@@ -39,3 +39,15 @@ ls -l sample_soft.txt
 **Explanation:**
 I created a symbolic link named `sample_soft.txt` that points to `sample_data.txt`. The arrow in the output confirms that this file is a soft link reference to the original file.
 
+### Step 4: Inode Verification
+
+**Command:**
+```bash
+ls -li sample_data.txt sample_hard.txt sample_soft.txt
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I listed the inode numbers for the original file, hard link, and symbolic link using `ls -li`. This output allows me to compare which files reference the same inode on disk.
+
