@@ -25,3 +25,16 @@ Output:
 Explanation (1–2 sentences):
 I navigated into the `documents` directory and created a new empty file named `plan.txt` using the `touch` command. The `ls -l` command confirmed that the file was created successfully.
 
+### Step 3: Content Addition
+
+**Command:**
+```bash
+echo "Remember to complete project documentation." > plan.txt
+cat plan.txt
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I added sample text to the file `plan.txt` using output redirection. The `cat` command displayed the contents of the file to confirm that the text was written successfully.
+
