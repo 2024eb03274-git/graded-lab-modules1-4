@@ -27,3 +27,13 @@ top -u $USER
 **Explanation:**
 This command displays real-time information about all processes owned by my user account and allows identifying which process is consuming the most CPU resources.
 
+## Step 4 — Background Process Execution
+
+### Command
+```bash
+sleep 300 &
+jobs
+```
+Explanation:
+This command starts the `sleep` process in the background, and the `jobs` command confirms that the background process is currently running.
+
