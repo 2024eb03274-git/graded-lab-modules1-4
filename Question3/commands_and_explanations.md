@@ -77,7 +77,7 @@ This command displays detailed metadata about the file including size, permissio
 ```bash
 du -sh ~
 ```
-Explanation:
+**Explanation:**
 I displayed the total disk space used by my home directory in a human-readable format, which helps me understand how much storage my files are consuming.
 
 ### Step 8: File Size Overview
@@ -86,7 +86,7 @@ I displayed the total disk space used by my home directory in a human-readable f
 ```bash
 ls -lh ~
 ```
-Explanation:
+**Explanation:**
 I listed all files in my home directory using human-readable format to easily view the size of each file and directory.
 
 ### Step 9: Link Deletion Test
@@ -96,6 +96,14 @@ I listed all files in my home directory using human-readable format to easily vi
 rm sample_soft.txt
 ls -l sample_data.txt
 ```
-Explanation:
+**Explanation:**
 I deleted the symbolic link and then listed the original file to verify that it still exists, proving that removing a soft link does not affect the original file.
 
+## Step 10 — Disk Utility Demonstration (du and df)
+
+### Command 10.1
+```bash
+du -sh ~
+```
+**Explanation:**
+This command shows the total disk space used by my home directory (~) in a summarized, human-readable format.
