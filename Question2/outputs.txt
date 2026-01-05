@@ -5,3 +5,5 @@ drwxr-xr-x 2 coder coder 2 Jan  5 00:59 /home/coder/documents
 Remember to complete project documentation.
 
 -rw-r--r-- 1 coder coder 44 Jan  5 01:13 plan.txt
+
+-rw-r--r-- 1 coder coder 44 Jan  5 01:38 plan_copy.txt
