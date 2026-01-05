@@ -12,3 +12,5 @@ drwxr-xr-x 2 coder coder 4 Jan  5 01:38 project_documents
 
 rmdir: failed to remove 'project_documents': Directory not empty
 project_documents
+
+ls: cannot access 'project_documents': No such file or directory
