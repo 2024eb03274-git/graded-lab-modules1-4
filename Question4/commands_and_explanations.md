@@ -48,3 +48,12 @@ ps -o pid,ni,cmd -u $USER | grep sleep
 **Explanation:**
 This command changes the niceness value of the running Python process with PID 276 from 0 to 10, lowering its priority, and the output confirms that the new priority has been applied.
 
+## Step 6 — Memory Usage Monitoring
+
+### Command
+```bash
+free -h
+```
+**Explanation:**
+This command displays memory usage in a human-readable format, including total, used, free, shared, buff/cache, and available memory.
+
