@@ -56,4 +56,10 @@ PID  NI CMD
 276 10 python /home/coder/noVNC/utils/websockify/run --web /home/coder/noVNC/
 ...
 
+Step6
+              total   used   free  shared  buff/cache  available
+Mem:           249G   117G    17G    210M        113G       128G
+Swap:          8.0G   710M   7.3G
+
+
 
