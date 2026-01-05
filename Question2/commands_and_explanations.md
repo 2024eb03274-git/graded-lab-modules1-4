@@ -49,3 +49,17 @@ ls -l plan.txt
 
 **Explanation:**
 I displayed the permissions, ownership, size, and timestamp of the file `plan.txt` using `ls -l`. The output confirms that my username appears as the file owner.
+
+### Step 5: File Duplication
+
+**Command:**
+```bash
+cp plan.txt plan_copy.txt
+ls -l plan_copy.txt
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I created a duplicate of `plan.txt` named `plan_copy.txt` using the `cp` command. The `ls -l` output confirms that the new file was created successfully.
+
