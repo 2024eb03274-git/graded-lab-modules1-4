@@ -107,3 +107,17 @@ du -sh ~
 ```
 **Explanation:**
 This command shows the total disk space used by my home directory (~) in a summarized, human-readable format.
+
+### Command 10.2
+```bash
+du -ah ~ | head
+```
+**Explanation:**
+This command lists disk usage for individual files and directories inside my home directory in human-readable format, and head limits the output to the first entries.
+
+### Command 10.3
+```bash
+df -h
+```
+**Explanation:**
+This command displays filesystem disk usage, showing total size, used space, available space, percentage used, and mount points in a human-readable format.
