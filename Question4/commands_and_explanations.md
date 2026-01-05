@@ -85,3 +85,11 @@ cat system_report.txt
 **Explanation:**
 This command redirects the output of the `uname -a` system information command into the file `system_report.txt`, and the second command confirms the contents of the file.
 
+## Step 10 — Disk Usage Visualization (ncdu)
+
+### Command
+```bash
+ncdu ~
+```
+**Explanation:**
+This command attempts to launch the ncdu disk usage analyzer, but the system does not have ncdu installed and I do not have privileges to install new software, so the command is not available.
