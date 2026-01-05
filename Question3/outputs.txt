@@ -62,5 +62,30 @@ rm sample_soft.txt
 ls -l sample_soft.txt
 ls: cannot access 'sample_soft.txt': No such file or directory
 
+--- Q3 Step 10 ---
+
+8.9M    /home/coder
+
+512     /home/coder/Templates
+1.0K    /home/coder/.bash_history
+1.0K    /home/coder/wm_startup.sh
+512     /home/coder/workspace
+512     /home/coder/Pictures
+512     /home/coder/Music
+1.0K    /home/coder/.dbus/session-bus/eb42b013fd615fb00915b2d260e7c492-1
+1.5K    /home/coder/.dbus/session-bus
+2.0K    /home/coder/.dbus
+4.0K    /home/coder/Desktop/log.txt
+
+Filesystem      Size  Used Avail Use% Mounted on
+dockerPool/...   13G  3.7G  9.4G  29% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+dockerPool      248G  6.8G  241G   3% /etc/hosts
+fs-096477e...    8.0E 77T  8.0E   1% /home/coder/Desktop
+devtmpfs        125G     0  125G   0% /dev/tty
+tmpfs           125G     0  125G   0% /proc/acpi
+tmpfs           125G     0  125G   0% /proc/scsi
+tmpfs           125G     0  125G   0% /sys/firmware
 
 
