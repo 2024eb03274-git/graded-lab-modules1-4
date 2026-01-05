@@ -90,3 +90,16 @@ ls -d project_documents
 **Explanation:**
 I attempted to remove the directory using `rmdir`, but the system returned an error because the directory was not empty. The `ls -d` command confirmed that the directory still exists.
 
+### Step 8: Force Deletion
+
+**Command:**
+```bash
+rm -r project_documents
+ls -d project_documents
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I permanently removed the directory and its contents using the `rm -r` command. The error message from `ls` confirms that the directory no longer exists.
+
