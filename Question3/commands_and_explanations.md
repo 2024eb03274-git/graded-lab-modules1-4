@@ -80,4 +80,13 @@ du -sh ~
 Explanation:
 I displayed the total disk space used by my home directory in a human-readable format, which helps me understand how much storage my files are consuming.
 
+### Step 8: File Size Overview
+
+**Command:**
+```bash
+ls -lh ~
+```
+Explanation:
+I listed all files in my home directory using human-readable format to easily view the size of each file and directory.
+
 
