@@ -43,3 +43,5 @@ From ip-172-18-0-1.ec2.internal (172.18.0.1) icmp_seq=2 Destination Port Unreach
 From ip-172-18-0-1.ec2.internal (172.18.0.1) icmp_seq=3 Destination Port Unreachable
 From ip-172-18-0-1.ec2.internal (172.18.0.1) icmp_seq=4 Destination Port Unreachable
 4 packets transmitted, 0 received, +4 errors, 100% packet loss
+
+00:52:28 up 5 days, 23:51, 0 users, load average: 2.73, 3.58, 3.86
