@@ -1,0 +1,1 @@
+drwxr-xr-x 2 coder coder 2 Jan  5 00:59 /home/coder/documents
