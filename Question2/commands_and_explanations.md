@@ -63,3 +63,17 @@ ls -l plan_copy.txt
 **Explanation:**
 I created a duplicate of `plan.txt` named `plan_copy.txt` using the `cp` command. The `ls -l` output confirms that the new file was created successfully.
 
+### Step 6: Directory Renaming
+
+**Command:**
+```bash
+cd ~
+mv documents project_documents
+ls -ld project_documents
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I renamed the directory `documents` to `project_documents` using the `mv` command. The `ls -ld` command confirmed that the directory name was changed successfully.
+
