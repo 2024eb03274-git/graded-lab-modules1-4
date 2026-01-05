@@ -1,10 +1,14 @@
+--- Q3 Step 1 ---
 Sample file for link testing
 
+--- Q3 Step 2 ---
 -rw-r--r-- 2 coder coder 29 Jan 5 02:01 sample_data.txt
 -rw-r--r-- 2 coder coder 29 Jan 5 02:01 sample_hard.txt
 
+--- Q3 Step 3 ---
 lrwxrwxrwx 1 coder coder 15 Jan 5 15:04 sample_soft.txt -> sample_data.txt
 
+--- Q3 Step 4 ---
 229764 -rw-r--r-- 2 coder coder 29 Jan 5 16:45 sample_data.txt
 229764 -rw-r--r-- 2 coder coder 29 Jan 5 16:45 sample_hard.txt
 232448 lrwxrwxrwx 1 coder coder 15 Jan 5 16:47 sample_soft.txt -> sample_data.txt
@@ -19,6 +23,11 @@ Access: (0644/-rw-r--r--)  Uid: (1000/coder)  Gid: (1000/coder)
 Access: 2026-01-05 16:45:45
 Modify: 2026-01-05 16:45:45
 Change: 2026-01-05 16:46:08
+
+--- Q3 Step 7 ---
+Command: du -sh ~
+
+8.9M    /home/coder
 
 
 
