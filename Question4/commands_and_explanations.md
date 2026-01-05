@@ -83,4 +83,5 @@ uname -a > system_report.txt
 cat system_report.txt
 ```
 **Explanation:**
-This command redirects the output of the system information command into the file `system_report.txt`, and the second command displays the contents of that file to verify the redirection.
+This command redirects the output of the `uname -a` system information command into the file `system_report.txt`, and the second command confirms the contents of the file.
+
