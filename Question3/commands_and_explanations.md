@@ -26,3 +26,16 @@ ls -l sample_data.txt sample_hard.txt
 **Explanation:**
 I created a hard link named `sample_hard.txt` pointing to the same inode as `sample_data.txt`. The link count of 2 in the output confirms that both files reference the same data on disk.
 
+### Step 3: Symbolic Link Creation
+
+**Command:**
+```bash
+ln -s sample_data.txt sample_soft.txt
+ls -l sample_soft.txt
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I created a symbolic link named `sample_soft.txt` that points to `sample_data.txt`. The arrow in the output confirms that this file is a soft link reference to the original file.
+
