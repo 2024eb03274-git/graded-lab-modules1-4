@@ -13,4 +13,16 @@ cat sample_data.txt
 **Explanation:**
 I created a file named `sample_data.txt` and added sample text to it. The `cat` command verified that the file content was written correctly.
 
+### Step 2: Hard Link Creation
+
+**Command:**
+```bash
+ln sample_data.txt sample_hard.txt
+ls -l sample_data.txt sample_hard.txt
+```
+**Output:**
+(See outputs.txt)
+
+**Explanation:**
+I created a hard link named `sample_hard.txt` pointing to the same inode as `sample_data.txt`. The link count of 2 in the output confirms that both files reference the same data on disk.
 
